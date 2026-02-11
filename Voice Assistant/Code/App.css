@@ -1,0 +1,81 @@
+/* App.css */
+.app {
+  text-align: center;
+}
+
+.header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px 0;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.logo {
+  border-radius: 50%; /* Make logo circular */
+  overflow: hidden; /* Ensure content doesn't overflow the circular shape */
+  place-items: center;
+}
+
+.logo img {
+  width: 100px; /* Adjust the width according to your logo size */
+  height: 100px; /* To maintain aspect ratio */
+}
+
+.navigation ul {
+  list-style-type: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:larger;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Change to flex layout */
+}
+
+.navigation ul li {
+  margin-left: 20px; /* Add margin between navigation items */
+}
+
+.navigation ul li:first-child {
+  margin-left: 0; /* Remove margin for the first navigation item */
+}
+
+.navigation ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.main-content {
+  margin-top: 50px;
+}
+
+.get-started-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
